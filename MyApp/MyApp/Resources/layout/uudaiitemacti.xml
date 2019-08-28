@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:padding="15px"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/linearLayout1" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="left"
+        android:background="#fff">
+    <ImageView
+        android:src="@drawable/baseline_keyboard_backspace_black_18dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        android:id="@+id/imageViewAvatar"/>
+        <ImageView
+            android:paddingLeft="290dp"
+        android:src="@drawable/baseline_share_black_18dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        
+        android:id="@+id/imageViewAvatar"/>
+        </LinearLayout>
+    <ImageView
+        android:src="@drawable/capture3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        android:id="@+id/imageViewAvatar"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="left"
+        android:background="#fff">
+    <TextView
+            android:textColor="#F000"
+        android:text="Giảm 50% khóa học đào tạo nhân sự chuyên nghiệp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:gravity="center"
+        android:id="@+id/tvTenHoiVien" />
+        <TextView
+            android:paddingLeft="10dp"
+            android:textColor="#F00"
+        android:text="Ngày hết hạn : 19/05/2019"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:gravity="left"
+        android:id="@+id/tvTenHoiVien" />
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="left"
+        android:background="#fff">
+        <ImageView
+           android:src="@drawable/outline_local_offer_black_18dp"
+        android:layout_width="50px"
+        android:layout_height="50px"
+        android:layout_gravity="left"
+        android:id="@+id/imageViewAvatar1">
+        </ImageView>
+        <TextView
+            android:paddingLeft ="20dp"
+        android:text="Free"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textSize="12dp"
+        android:id="@+id/tvChucVu1" 
+        />
+         <TextView
+            android:paddingLeft ="100dp"
+        android:text="Tiết kiệm :"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textSize="12dp"
+        android:gravity="right"
+        android:id="@+id/tvChucVu2" 
+        />
+        <TextView
+            android:textColor="#F00"
+            android:paddingLeft ="10dp"
+        android:text="1.200.00Đ"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textSize="12dp"
+        android:gravity="right"
+        android:id="@+id/tvChucVu3" 
+        />
+    </LinearLayout>
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="left"
+        android:background="#fff">
+        <TextView
+            android:paddingLeft ="10dp"
+        android:text="Công ty đào tạo nhân lực Leam"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textSize="10dp"
+        android:gravity="right"
+        android:id="@+id/tvChucVu4" 
+        />
+    </LinearLayout>
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="left"
+        android:background="#fff">
+        <TextView
+            android:paddingLeft ="10dp"
+        
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textSize="15dp"
+        android:gravity="right"
+        android:id="@+id/tvChucVu4" 
+        />
+        <TextView
+            android:paddingLeft ="10dp"
+        android:text="Sử Dụng "
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textSize="15dp"
+        android:gravity="right"
+        android:id="@+id/tvChucVu4" 
+        />
+    </LinearLayout>
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="left"
+        android:background="#fff">
+        <TextView
+            android:paddingLeft ="10dp"
+        android:text="Bước 1:  "
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textSize="15dp"
+        android:gravity="right"
+        android:id="@+id/tvChucVu4" />
+        <TextView
+            android:paddingLeft ="10dp"
+        android:text="Lấy mã khuyến mãi: "
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textSize="15dp"
+        android:gravity="right"
+        android:id="@+id/tvChucVu4" />
+        <TextView
+            android:textColor="#F00"
+            android:paddingLeft ="10dp"
+        android:text="MHBSIHSHD"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textSize="15dp"
+        android:gravity="right"
+        android:id="@+id/tvChucVu4" />
+    </LinearLayout>
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="left"
+        android:background="#fff">
+        <TextView
+            android:paddingLeft ="10dp"
+        android:text="Bước 2:  "
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textSize="15dp"
+        android:gravity="right"
+        android:id="@+id/tvChucVu4" />
+        <TextView
+            android:paddingLeft ="10dp"
+        android:text="Tới công ty Apecsoft địa chỉ 18 Cầu Giấy - Hà Nội"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textSize="15dp"
+        android:gravity="left"
+        android:id="@+id/tvChucVu4" />
+        </LinearLayout>
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="left"
+        android:background="#fff">
+        <TextView
+            android:paddingLeft ="10dp"
+        android:text="Bước 3:  "
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textSize="15dp"
+        android:gravity="right"
+        android:id="@+id/tvChucVu4" />
+        <TextView
+            android:paddingLeft ="10dp"
+        android:text="Đăng ký khóa học Nhân sự chuyên nghiệp và đưa mã giảm giá cho nhân viên lễ tân"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textSize="15dp"
+        android:gravity="left"
+        android:id="@+id/tvChucVu4" />
+        
+        </LinearLayout>
+<TextView
+            android:paddingLeft ="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textSize="15dp"
+        android:gravity="right"
+        android:id="@+id/tvChucVu4" />
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="left"
+        android:background="#fff">
+        <TextView
+            android:paddingLeft ="10dp"
+        android:text="Thông tin khuyến mãi  "
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textSize="17dp"
+        android:gravity="right"
+        android:id="@+id/tvChucVu4" />
+        <TextView
+            android:paddingLeft ="10dp"
+        android:text="- Giảm 30% khi đăng ký tham gia khóa học đào tạo nhân sự chuyên nghiệp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textSize="15dp"
+        android:gravity="left"
+        android:id="@+id/tvChucVu4" />
+        <TextView
+            android:paddingLeft ="10dp"
+        android:text="- Tặng kèm bộ sách trị giá 2.000.000đ sau khi hoàn thành khóa học"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textSize="15dp"
+        android:gravity="left"
+        android:id="@+id/tvChucVu4" />
+        </LinearLayout>
+</LinearLayout>
+

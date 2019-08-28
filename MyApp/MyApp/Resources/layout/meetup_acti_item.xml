@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+    <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearLayout1" >
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:gravity="center"
+        android:background="#fff"
+        android:layout_margin="30px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout2">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout2">
+        <ImageView
+            android:src="@android:drawable/ic_menu_gallery"
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:id="@+id/imgavatar" />
+        <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout2">
+            <TextView
+                android:text="Text"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvTenHV" />
+            <TextView
+                android:text="Text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvChucVu" />
+        </LinearLayout>
+        <TextView
+            android:text="Text"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:layout_marginLeft="400px"
+            android:background="@drawable/gradius"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvTrangthai" />
+</LinearLayout>
+    <TextView
+        android:text="Text"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvNoiDung" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:paddingTop="20px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout2">
+        <ImageView
+            android:background="@drawable/baseline_date_range_black_18dp"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:id="@+id/imageView2" />
+        <TextView
+            android:text="Text"
+            android:gravity="center"
+            android:paddingLeft="15px"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/tvTime" />
+    </LinearLayout>
+<LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:paddingTop="20px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout2">
+        <ImageView
+            android:background="@drawable/baseline_room_black_18dp"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:id="@+id/imageView2" />
+        <TextView
+            android:text="Text"
+            android:gravity="center"
+            android:paddingLeft="15px"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/tvNoiToChuc" />
+    </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

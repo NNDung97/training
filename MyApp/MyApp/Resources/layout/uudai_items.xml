@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:padding="15px"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/linearLayout1" >
+    <ImageView
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        android:id="@+id/imgitemDetail"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="left"
+        android:background="#fff">
+    <TextView
+            android:textColor="#F000"
+        android:text="Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:gravity="center"
+        android:id="@+id/tvDetails" />
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="left"
+        android:background="#fff">
+        <ImageView
+           android:src="@drawable/outline_local_offer_black_18dp"
+        android:layout_width="50px"
+        android:layout_height="50px"
+        android:layout_gravity="left"
+        android:id="@+id/imageViewAvatar1">
+        </ImageView>
+        <TextView
+        android:paddingLeft ="20dp"
+        android:text="Free"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textSize="12dp"
+        android:gravity="center"
+        android:id="@+id/tvChucVu1" 
+        />
+         <TextView
+            android:paddingLeft ="100dp"
+        android:text="Tiết kiệm :"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textSize="12dp"
+        android:gravity="right"
+        android:id="@+id/tvChucVu2" 
+        />
+        <TextView
+            android:textColor="#F00"
+            android:paddingLeft ="10dp"
+        android:text="Text"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textSize="12dp"
+        android:gravity="right"
+        android:id="@+id/tvitemtientietkiem" 
+        />
+    </LinearLayout>
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="left"
+        android:background="#fff">
+        <TextView
+            android:paddingLeft ="10dp"
+        android:text="Text"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textSize="10dp"
+        android:gravity="right"
+        android:id="@+id/tvtencongty" 
+        />
+    </LinearLayout>
+</LinearLayout>
+
